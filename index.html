@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coinbase</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="">
+    <nav class="container mx-auto p-3 border">
+        <div class="flex items-center justify-between font-semibold md:mx-[150px]">
+            <img class="w-[100px]" src="/images/Consumer_Wordmark.svg" alt="logo">
+            <div class="hidden md:flex space-x-6">
+                <a href="#">Explore</a>
+                <a href="#">Learn</a>
+                <a href="#">Individuals</a>
+                <a href="#">Businesses</a>
+                <a href="#">Developers</a>
+                <a href="#">Company</a>
+            </div>
+            <div class="flex items-center space-x-2">
+                <div><span class="hidden md:block">Sign in</span></div>
+                <button class="w-[100px] p-2 mx-1 bg-blue-700 text-white rounded">Get started</button>
+                <a class="md:hidden ml-2" href="#"><img width="40" src="/images/menu.png" alt="menu"></a>
+            </div>
+        </div>
+    </nav>
+    <main id="hero" class="">
+        <section class="flex p-6 md:items-center md:justify-center">
+            <section id="left" class="flex flex-col items-start justify-center space-y-3 md:space-y-5 md:mr-10 md:w-[500px] md:relative md:-translate-y-[125px]">
+                <div class="flex items-center space-x-3 font-semibold text-blue-700">
+                    <img src="/images/image.svg" alt="icon">
+                    <a href="#" >Jump start your portfolio</a>
+                    <img src="/images/right-arrow.svg" class="w-4 h-4" alt="icon">
+                </div>
+                <h1 class="text-4xl font-semibold md:text-6xl md:font-semibold">Jump start your crypto portfolio</h1>
+                <p class="font-normal md:text-lg md:font-semibold">Coinbase is the easiest place to buy and sell cryptocurrency. Sign up and get started today.</p>
+                <div class="md:flex md:items-end md:w-full md:space-x-3 w-full">
+                    <span class="md:w-[300px]"><input type="email" name="email" id="email" placeholder="Email address" class="border w-full p-5 rounded"></span>
+                    <button class=" md:w-[180px] bg-blue-600 p-5 rounded text-white font-semibold w-full mt-2">Get started</button>
+                </div>
+            </section>
+            <section id="right" class="hidden md:block">
+                <svg width="400" height="700" viewBox="0 0 680 956" fill="none" xmlns="http://www.w3.org/2000/svg" class="HeroVariant__HeroIndiaImage-sc-1o7093z-7 efRURj"><circle cx="340" cy="428" r="340" fill="#F1F5FE"></circle><g filter="url(#prefix__filter0_dd)"><path d="M481 10H198c-32.032 0-58 25.968-58 58v720c0 32.032 25.968 58 58 58h283c32.032 0 58-25.968 58-58V68c0-32.032-25.968-58-58-58z" fill="url(#prefix__paint0_linear)"></path><path d="M472.489 22H206.511C176.406 22 152 47.222 152 78.335v699.33C152 808.778 176.406 834 206.511 834h265.978C502.594 834 527 808.778 527 777.665V78.335C527 47.222 502.594 22 472.489 22z" fill="url(#prefix__img1)"></path></g><defs><filter id="prefix__filter0_dd" x="48" y="0" width="519" height="956" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix><feOffset dx="-32" dy="50"></feOffset><feGaussianBlur stdDeviation="30"></feGaussianBlur><feColorMatrix values="0 0 0 0 0.321569 0 0 0 0 0.321569 0 0 0 0 0.321569 0 0 0 0.25 0"></feColorMatrix><feBlend in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix><feOffset dy="15"></feOffset><feGaussianBlur stdDeviation="7.5"></feGaussianBlur><feColorMatrix values="0 0 0 0 0.320833 0 0 0 0 0.320833 0 0 0 0 0.320833 0 0 0 0.1 0"></feColorMatrix><feBlend in2="effect1_dropShadow" result="effect2_dropShadow"></feBlend><feBlend in="SourceGraphic" in2="effect2_dropShadow" result="shape"></feBlend></filter><pattern id="prefix__img1" patternUnits="objectBoundingBox" width="1" height="1" viewBox="0 0 385 812"><image href="https://assets.coinbase.com/assets/india-mobile-app.d49050251d2e12af22a046296c741238.svg" width="375" height="812"></image></pattern></defs></svg>
+            </section>
+        </section>
+        <section id="currencies-table" class="container max-w-full mx-auto my-[125px] drop-shadow-lg">
+            <table class="w-full border border-b-0 md:w-2/3 md:mx-auto md:border-b-2">
+                <tr>
+                    <th class="hidden md:flex  items-center justify-between px-4 py-2 border border-collapse font-light">
+                        <label for="#">#</label>
+                        <label for="#" class="grow align-baseline">Name</label>
+                        <label for="#">Price</label>
+                        <label for="#">Change</label>
+                        <label for="#">Chart</label>
+                        <label for="#">Trade</label>
+                    </th>
+                </tr>
+                <tr>
+                    <td class="flex items-center justify-between px-4 py-2 border border-collapse">
+                        <div class="flex items-center space-x-3">
+                            <span class="hidden md:block mr-2">1</span>
+                            <img src="/images/bitcoin-logo.png" alt="bitcoin-logo" class="w-10">
+                            <span>Bitcoin <br>BTC</span>
+                        </div>
+                        <div>
+                            <span>$413516 <br>-0.05%</span>
+                        </div>
+                    </td>
+                    <td class="flex items-center justify-between px-4 py-2 border">
+                        <div class="flex items-center space-x-3">
+                            <span class="hidden md:block mr-2">2</span>
+                            <img src="/images/ethereum-logo.png" alt="ethereum-logo" class="w-10">
+                            <span>Ethereum <br>ETH</span>
+                        </div>
+                        <div>
+                            <span>$413516 <br>-0.05%</span>
+                        </div>
+                    </td>
+                    <td class="flex items-center justify-between px-4 py-2 border">
+                        <div class="flex items-center space-x-3">
+                            <span class="hidden md:block mr-2">3</span>
+                            <img src="/images/cardano-logo.png" alt="cardano-logo" class="w-10">
+                            <span>Cardano <br>ADA</span>
+                        </div>
+                        <div>
+                            <span>$413516 <br>-0.05%</span>
+                        </div>
+                    </td>
+                    <td class="flex items-center justify-between px-4 py-2 border border-b-0 md:border-b-1">
+                        <div class="flex items-center space-x-3">
+                            <span class="hidden md:block ">4</span>
+                            <img src="/images/solana-logo.png" alt="solana-logo" class="w-10">
+                            <span>Solana <br>SOL</span>
+                        </div>
+                        <div>
+                            <span>$413516 <br>-0.05%</span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section id="features">
+            <div class="container text-center">
+                <div class="flex flex-col space-y-6 justify-center items-center">
+                    <h1 class="text-5xl font-semibold">Create your cryptocurrency portfolio today</h1>
+                    <p>Coinbase has a variety of features that make it the best place to start trading</p>
+                    <img src="/images/india-mobile-app.145226c87ee1cff6834c32587fd16c2a.jpg" alt="image" class="w-[325px]">
+                </div>
+                <div class="flex flex-col space-y-6 justify-center items-center mt-10">
+                    <div class="rounded-full shadow-xl p-2"><img src="/images/portfolio-icon.svg" alt="portfolio-icon" class="w-[50px]"></div>
+                    <h1 class="text-xl font-semibold">Manage your portfolio</h1>
+                    <p>Buy and sell popular digital currencies, keep track of them in the one place.</p>
+                </div>
+                <div class="flex flex-col space-y-6 justify-center items-center mt-10">
+                    <div class="rounded-full shadow-xl p-4"><img src="/images/vault-icon.svg" alt="portfolio-icon" class="w-[35px]"></div>
+                    <h1 class="text-xl font-semibold">Vault protection</h1>
+                    <p>For added security, store your funds in a vault with time delayed withdrawals.</p>
+                </div>
+                <div class="flex flex-col space-y-6 justify-center items-center mt-10">
+                    <div class="rounded-full shadow-xl p-2"><img src="/images/mobile-apps-icon.svg" alt="mobile-icon" class="w-[50px]"></div>
+                    <h1 class="text-xl font-semibold">Mobile apps</h1>
+                    <p>Stay on top of the markets with the Coinbase app for Android or iOS.</p>
+                </div>
+            </div>
+        </section>
+        <section id="features-2">
+
+        </section>
+    </main>
+</body>
+</html>
