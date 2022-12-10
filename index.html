@@ -9,7 +9,7 @@
 </head>
 <body class="font-sans">
     <!-- Navbar-section -->
-    <nav class="container mx-auto p-3 border">
+    <nav class="container mx-auto p-3 border fixed z-10 bg-white">
         <div class="flex items-center justify-between font-semibold md:mx-[150px]">
             <img class="w-[100px]" src="/images/Consumer_Wordmark.svg" alt="logo">
             <div class="hidden md:flex space-x-6">
@@ -56,7 +56,7 @@
                 <tr>
                     <th class="hidden md:flex  items-center justify-between px-4 py-2 border border-collapse font-light">
                         <label for="#">#</label>
-                        <label for="#" class="grow align-baseline">Name</label>
+                        <label for="#" class="">Name</label>
                         <label for="#">Price</label>
                         <label for="#">Change</label>
                         <label for="#">Chart</label>
@@ -231,5 +231,112 @@
             </div>
         </section>
     </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container p-10 md:flex md:px-[250px] md:py-[44px] md:h-[950px] md:justify-start md:gap-[200px]">
+            <div class="flex flex-col gap-3">
+                <div>
+                    <img width="150" src="/images/Coinbase Logo.png" alt="logo">
+                </div>
+                <div>
+                    <select name="language-select" id="language-select" class="border w-[225px] px-2 py-1 rounded">
+                        <option value="en">English</option>
+                        <option value="ita">Italian</option>
+                        <option value="esp">Espanyol</option>
+                        <option value="fre">French</option>
+                        <option value="hin">Hindi</option>
+                    </select>
+                </div>
+                <div class="text-gray-400">© 2022 Coinbase</div>
+                <div class="text-gray-400">
+                    <a href="#">Blog - </a>
+                    <a href="#">Twitter - </a>
+                    <a href="#">Facebook</a>
+                </div>
+            </div>
+            <!-- Several-lists -->
+            <div class="flex flex-col gap-4 mt-5 md:flex-wrap leading-7 text-gray-600">
+                <div>
+                    <ul>
+                        <h1 class="font-bold text-black">Company</h1>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Employment</a></li>
+                        <li><a href="#">Affiliate program</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">press office</a></li>
+                        <li><a href="#">Safety</a></li>
+                        <li><a href="#">investors</a></li>
+                        <li><a href="#">Vendors</a></li>
+                        <li><a href="#">Legal issues and privacy</a></li>
+                        <li><a href="#">Cookies policy</a></li text-black>
+                        <li><a href="#">Digital Asset statements</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <h1 class="font-bold text-black">Learn</h1>
+                        <li><a href="#">Ethereum Merge</a></li>
+                        <li><a href="#">Explore cryptocurrency prices</a></li>
+                        <li><a href="#">Coinbase Bytes Newsletter</a></li>
+                        <li><a href="#">Cryptocurrency Basics</a></li>
+                        <li><a href="#">Tips and tutorials</a></li>
+                        <li><a href="#">Market news</a></li>
+                        <li><a href="#">What is bitcoin?</a></li>
+                        <li><a href="#">What is a cryptocurrency?</a></li>
+                        <li><a href="#">What is a chain of blocks (blockchain)?</a></li>
+                        <li><a href="#">How to set up a cryptocurrency wallet</a></li>
+                        <li><a href="#">How to send cryptocurrency</a></li>
+                        <li><a href="#">Taxes</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <h1 class="font-bold text-black">Individuals</h1>
+                        <li><a href="#">Buy & sell</a></li>
+                        <li><a href="#">Wallet</a></li>
+                        <li><a href="#">NFT</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <h1 class="font-bold text-black">Businesses</h1>
+                        <li><a href="">Institutional</a></li>
+                        <li><a href="">Prime</a></li>
+                        <li><a href="">Asset Hub</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <h1 class="font-bold text-black">Developers</h1>
+                        <li><a href="">Cloud</a></li>
+                        <li><a href="">Wallet SDK</a></li>
+                        <li><a href="">Coinbase Pay SDK</a></li>
+                        <li><a href="">Node</a></li>
+                        <li><a href="">Commerce</a></li>
+                        <li><a href="">Exchange & Pro</a></li>
+                        <li><a href="">Sign in with Coinbase</a></li>
+                        <li><a href="">Rosetta</a></li>
+                        <li><a href="">Participate</a></li>
+                        <li><a href="">Prime API</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <h1 class="font-bold text-black">Support</h1>
+                        <li><a href="">Help center</a></li>
+                        <li><a href="">Contact us</a></li>
+                        <li><a href="">Create account</a></li>
+                        <li><a href="">ID verification</a></li>
+                        <li><a href="">Account information</a></li>
+                        <li><a href="">Payment methods</a></li>
+                        <li><a href="">Account access</a></li>
+                        <li><a href="">Supported crypto</a></li>
+                        <li><a href="">Supported countries</a></li>
+                        <li><a href="">Status</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
