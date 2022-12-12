@@ -9,4 +9,4 @@
 
 
 ## Mobile Preview
-![Mobile preview](./images/mobile-preview'.png.png)
+![Mobile preview](./images/mobile-preview'.png)
