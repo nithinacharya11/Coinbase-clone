@@ -9,7 +9,7 @@
 </head>
 <body class="font-sans">
     <!-- Navbar-section -->
-    <nav class="container mx-auto p-3 border fixed z-10 bg-white">
+    <nav class="container mx-auto p-3 border fixed top-0 z-10 bg-white">
         <div class="flex items-center justify-between font-semibold md:mx-[150px]">
             <img class="w-[100px]" src="/images/Consumer_Wordmark.svg" alt="logo">
             <div class="hidden md:flex space-x-6">
@@ -30,7 +30,7 @@
     <!-- Main-section -->
     <main id="hero">
         <!-- Main-section-top -->
-        <section class="flex p-6 md:items-center md:justify-center">
+        <section class="flex p-6 md:items-center md:justify-center relative mt-16 md:mt-10">
             <!-- Main-section-top-left -->
             <section id="left" class="flex flex-col items-start justify-center space-y-3 md:space-y-5 md:mr-10 md:w-[500px] md:relative md:-translate-y-[125px]">
                 <div class="flex items-center space-x-3 font-semibold text-blue-700">
@@ -51,18 +51,134 @@
             </section>
         </section>
         <!-- Currencies-table -->
-        <section id="currencies-table" class="container max-w-full mx-auto my-[125px] drop-shadow-lg">
-            <table class="w-full border border-b-0 md:w-2/3 md:mx-auto md:border-b-2">
+        <section id="currencies-table" class="container max-w-full mx-auto mt-[75px] mb-[125px] drop-shadow-lg">
+            <table class="hidden border border-collapse md:table w-2/3 mx-auto table-auto">
+                <!-- Table-header -->
                 <tr>
-                    <th class="hidden md:flex  items-center justify-between px-4 py-2 border border-collapse font-light">
-                        <label for="#">#</label>
-                        <label for="#" class="">Name</label>
-                        <label for="#">Price</label>
-                        <label for="#">Change</label>
-                        <label for="#">Chart</label>
-                        <label for="#">Trade</label>
-                    </th>
+                    <td class="p-4"><label for="#">#</label></ts>    
+                    <td><label for="#">Name</label></td>    
+                    <td><label for="#">Price</label></td>    
+                    <td><label for="#">Change</label></td>    
+                    <td><label for="#">Chart</label></td>    
+                    <td><label for="#">Trade</label></td>
                 </tr>
+                <!-- Table-data -->
+                <tr class="border">
+                    <td class="p-4">
+                        <div>1</div>
+                    </td>
+                    <td>
+                        <div class="flex space-x-2 items-center">
+                            <img width="40" src="/images/bitcoin-logo.png" alt="">
+                            <h2>Bitcoin</h2>
+                            <h3>BTC</h3>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            $515415
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            +0.04%
+                        </div>
+                    </td>
+                    <td>
+                        <img src="/images/chart.png" alt="chart">
+                    </td>
+                    <td>
+                        <button class="px-4 py-1 bg-green-700 text-white rounded">Buy</button>
+                    </td>
+                </tr>
+                <tr class="border">
+                    <td class="p-4">
+                        <div>2</div>
+                    </td>
+                    <td>
+                        <div class="flex space-x-2 items-center">
+                            <img width="40" src="/images/ethereum-logo.png" alt="">
+                            <h2>Ethereum</h2>
+                            <h3>ETH</h3>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            $515415
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            +0.04%
+                        </div>
+                    </td>
+                    <td>
+                        <img src="/images/chart.png" alt="chart">
+                    </td>
+                    <td>
+                        <button class="px-4 py-1 bg-green-700 text-white rounded">Buy</button>
+                    </td>
+                </tr>
+                <tr class="border">
+                    <td class="p-4">
+                        <div>3</div>
+                    </td>
+                    <td>
+                        <div class="flex space-x-2 items-center">
+                            <img width="40" src="/images/cardano-logo.png" alt="">
+                            <h2>Cardano</h2>
+                            <h3>ADA</h3>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            $515415
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            +0.04%
+                        </div>
+                    </td>
+                    <td>
+                        <img src="/images/chart.png" alt="chart">
+                    </td>
+                    <td>
+                        <button class="px-4 py-1 bg-green-700 text-white rounded">Buy</button>
+                    </td>
+                </tr>
+                <tr class="border">
+                    <td class="p-4">
+                        <div>4</div>
+                    </td>
+                    <td>
+                        <div class="flex space-x-2 items-center">
+                            <img width="40" src="/images/solana-logo.png" alt="">
+                            <h2>Solana</h2>
+                            <h3>SOL</h3>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            $515415
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            +0.04%
+                        </div>
+                    </td>
+                    <td>
+                        <img src="/images/chart.png" alt="chart">
+                    </td>
+                    <td>
+                        <button class="px-4 py-1 bg-green-700 text-white rounded">Buy</button>
+                    </td>
+                </tr>
+               
+            </table>
+            <!-- table for mobile -->
+            <table class="w-full border md:hidden">
                 <tr>
                     <td class="flex items-center justify-between px-4 py-2 border border-collapse">
                         <div class="flex items-center space-x-3">
@@ -76,9 +192,9 @@
                     </td>
                     <td class="flex items-center justify-between px-4 py-2 border">
                         <div class="flex items-center space-x-3">
-                            <span class="hidden md:block mr-2">2</span>
-                            <img src="/images/ethereum-logo.png" alt="ethereum-logo" class="w-10">
-                            <span>Ethereum <br>ETH</span>
+                        <span class="hidden md:block mr-2">2</span>
+                        <img src="/images/ethereum-logo.png" alt="ethereum-logo" class="w-10">
+                        <span>Ethereum <br>ETH</span>
                         </div>
                         <div>
                             <span>$413516 <br>-0.05%</span>
@@ -340,3 +456,4 @@
     </footer>
 </body>
 </html>
+
